@@ -28,10 +28,8 @@
 			<br><br>	
     </form>
 <div id="result"></div>
-    <center>
       <iframe id="result" name="result">
 				Your Street Number is <?php echo $_POST["street-number"]; ?> and your Street Name is <?php echo $_POST["street-name"]; ?>.
       </iframe>
-    </center>
   </body>
 </html>
