@@ -27,9 +27,10 @@
       <input type="submit" value="Enter">
 			<br><br>	
     </form>
-<div id="result"></div>
+<div id="result">
       <iframe id="result" name="result">
 				Your Street Number is <?php echo $_POST["street-number"]; ?> and your Street Name is <?php echo $_POST["street-name"]; ?>.
       </iframe>
+</div>
   </body>
 </html>
