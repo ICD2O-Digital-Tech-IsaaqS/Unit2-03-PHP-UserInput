@@ -21,16 +21,17 @@
     <?php echo "<h1>User Input in PHP</h1>" ?>
     <form action="./welcome.php" method="post" target="result">
       <label for="street-number">Street Number</label>
-      <input type="number" id="street-number" placeholder="Street Number" name="street-number"><br><br>
+      <input type="text" id="street-number" placeholder="Street Number" name="street-number"><br><br>
       <label for="street-name">Street Name</label>
       <input type="text" id="street-name" placeholder="Street Name" name="street-name"><br><br>
       <input type="submit" value="Enter">
 			<br><br>	
     </form>
-<div id="result">
+<div id="result"></div>
+     <centre>
       <iframe id="result" name="result">
 				Your Street Number is <?php echo $_POST["street-number"]; ?> and your Street Name is <?php echo $_POST["street-name"]; ?>.
       </iframe>
-</div>
+     </centre>
   </body>
 </html>
